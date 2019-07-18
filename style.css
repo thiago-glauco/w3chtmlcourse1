@@ -1,14 +1,22 @@
-h1, h2 {
-  font-family: Lato;
+p {
+  font-size: 0.8em
 }
 
 header img {
   float: left;
-  margin: 10px;
+  margin: 10px 5px auto;
+}
+
+header h1, header h2 {
+  font-family: Lato;
+  font-size: 1em;
+}
+
+header p {
+  line-height: 0.8rem;
 }
 
 header .myHeader {
-  margin: 10px;
   float: left;
-  line-height: 1rem;
+  line-height: 0.8rem;
 }
