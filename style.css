@@ -17,7 +17,7 @@ header img {
 header h1, header h2 {
   font-family: Lato;
   font-size: 2em;
-  line-height: 3rem;
+  line-height:3rem;
 }
 
 header p {
@@ -25,7 +25,8 @@ header p {
 }
 
 header .myHeader {
-  
+  float: left;
+  margin: 1vh auto;
 }
 section {
   clear: initial;
