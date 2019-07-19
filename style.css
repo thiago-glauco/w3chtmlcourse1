@@ -1,33 +1,42 @@
-p {
-  font-size: 1em
-}
-
 header {
-  display: block;
-  width: 100%;
-  height: 150px;
+  max-width: 100%;
+  height: 110px;
+  margin: 2vh auto auto 2vw;
 }
 
 header img {
   float: left;
-  clear: right;
-  margin: 10px 5px auto;
+  max-height: 80%;
+  max-width: 20%;
+
 }
 
 header h1, header h2 {
   font-family: Lato;
-  font-size: 2em;
-  line-height:3rem;
+  margin: 5px auto auto  10px;
+}
+header h1 {
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
+header h2 {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
 header p {
-  line-height: 1rem;
+  font-size: 0.8rem;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
-header .myHeader {
-  float: left;
-  margin: 1vh auto;
+.titleGroup {
+  align-items: center;
+  max-height: 80%;
 }
-section {
-  clear: initial;
+
+section{
+  margin: 10px auto;
+  width: 90vw;
+  max-width: 90%;
 }
