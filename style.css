@@ -64,3 +64,12 @@ article h3 {
   box-shadow: 2px 3px 3px lightgray;
   border-left: 3px solid red;
 }
+
+article img {
+  max-width: 30%;
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+article p {
+  margin-bottom: 1vh;
+}
